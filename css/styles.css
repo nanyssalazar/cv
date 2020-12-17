@@ -1,0 +1,175 @@
+body {
+  margin: 0; /* removes edges from the browser */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+a{
+  color: #835858;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #463333;
+}
+h1 {
+  color: #835858;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto; /*a∫uto keeps it centered */
+  /* font-size: 562.5%; you can also use this to make it dynamic */
+}
+
+
+h2{
+  color: #835858;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding-bottom: 10px;
+
+}
+
+h3{
+  color: #835858;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+hr {
+  background-color: white;
+  border: dotted #EBD4D4 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 20px 0 0;
+}
+.top-container{
+  background-color: #fff0f0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile-img {
+  width: 20%;
+}
+
+/* can also do this for the imgs */
+.programming-img {
+  width: 25%;  /* 25% from the skill row */
+  float: left;
+  margin-right: 30px;
+}
+
+.teamwork-img {
+  width: 25%;  /* 25% from the skill row */
+  float: right;
+  margin-left: 30px;
+}
+
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.btn {
+  background: #EBD4D4;
+  background-image: -webkit-linear-gradient(top, #EBD4D4, #835858);
+  background-image: -moz-linear-gradient(top, #EBD4D4, #835858);
+  background-image: -ms-linear-gradient(top, #EBD4D4, #835858);
+  background-image: -o-linear-gradient(top, #EBD4D4, #835858);
+  background-image: -webkit-gradient(to bottom, #EBD4D4, #835858);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #ebd4d4 2px;
+  background: #FFF0F0;
+  background-image: -webkit-linear-gradient(top, #FFF0F0, #EBD4D4);
+  background-image: -moz-linear-gradient(top, #FFF0F0, #EBD4D4);
+  background-image: -ms-linear-gradient(top, #FFF0F0, #EBD4D4);
+  background-image: -o-linear-gradient(top, #FFF0F0, #EBD4D4);
+  background-image: -webkit-gradient(to bottom, #FFF0F0, #EBD4D4);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #835858;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #ebd4d4;
+  padding: 50px 0 20px;
+
+}
+.bottom-container p {
+  color: #463333;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px; /* top leftright bottom */
+}
+
+
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.skill-row p {
+  text-align: justify;
+}
+
+.programmer {
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
